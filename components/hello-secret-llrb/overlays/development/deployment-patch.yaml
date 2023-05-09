@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: hello-secret-llrb
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/ergonzale-tenant/hello-secret/hello-secret-llrb@sha256:ac002416cf3891f039f646b09912d0412406bc57eca318af80707f689ed850d3
+        name: container-image
+        resources: {}
+status: {}
