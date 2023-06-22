@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ergonzale-tenant/hello-secret/hello-secret-llrb@sha256:99df86e634a8627d9b9516e45e49349696ce5ec7fe349e5200434fe372ba629c
+      - image: quay.io/redhat-user-workloads/ergonzale-tenant/hello-secret/hello-secret-llrb@sha256:d81b0300e9d5878a9d4091564ea90bfb03f3ccb137e22aaf217a547b431463d6
         name: container-image
         resources: {}
 status: {}
