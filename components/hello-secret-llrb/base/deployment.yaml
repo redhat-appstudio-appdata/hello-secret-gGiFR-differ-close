@@ -28,7 +28,7 @@ spec:
           value: RHTAP
         - name: VALUE
           value: test
-        image: quay.io/redhat-user-workloads/ergonzale-tenant/hello-secret/hello-secret-llrb@sha256:d81b0300e9d5878a9d4091564ea90bfb03f3ccb137e22aaf217a547b431463d6
+        image: quay.io/redhat-user-workloads/ergonzale-tenant/hello-secret/hello-secret-llrb@sha256:2962d592730bac76619eb47e50f257d80a4b169d7f8431407ffcf5b52f33785e
         imagePullPolicy: Always
         name: container-image
         ports:
