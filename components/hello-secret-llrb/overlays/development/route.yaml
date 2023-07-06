@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: hello-secret-llrb
     app.kubernetes.io/part-of: hello-secret
-  name: hello-secret-llrbnmf3
+  name: hello-secret-llrb8lpw
 spec:
   port:
     targetPort: 3000
