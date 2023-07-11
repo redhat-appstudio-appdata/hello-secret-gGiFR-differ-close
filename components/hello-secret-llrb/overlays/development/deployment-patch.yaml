@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: hello-secret-llrb
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
@@ -12,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ergonzale-tenant/hello-secret/hello-secret-llrb@sha256:99df86e634a8627d9b9516e45e49349696ce5ec7fe349e5200434fe372ba629c
+      - image: quay.io/redhat-user-workloads/ergonzale-tenant/hello-secret/hello-secret-llrb@sha256:ac002416cf3891f039f646b09912d0412406bc57eca318af80707f689ed850d3
         name: container-image
         resources: {}
 status: {}
